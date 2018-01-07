@@ -83,7 +83,7 @@
                     color: $active-tab-font-a-color;
                 }
                 a.red-ui-tab-close {
-                    color: #aaa;
+                    color: $tab-font-a-color;
                     background: $tab-background-active;
                     &:hover {
                         background: $workspace-button-background-hover !important;
@@ -135,19 +135,9 @@
                 margin: 0;
                 border: none;
                 height: auto;
-                &:not(:first-child) {
-                    border-top: 1px solid  $secondary-border-color;
-                }
-                &:last-child {
-                    border-bottom: 1px solid  $secondary-border-color;
-                }
 
                 a.red-ui-tab-label {
                     padding: 9px;
-                }
-
-                &.active {
-                    border-right: 1px solid #fff;
                 }
             }
         }
@@ -170,6 +160,7 @@
         margin-right:3px;
         margin-left:3px;
         z-index: 2;
+        border: none;
     }
 }
 

@@ -20,12 +20,12 @@
     top: 0px;
     bottom: 0px;
     left:0px;
-    background: #f3f3f3;
+    background: $sidebar-grey;
     width: 180px;
     text-align: center;
     @include disable-selection;
-    @include component-border;
     transition: width 0.2s ease-in-out;
+    box-shadow: 2px 0 5px rgba(0,0,0,.75);
 }
 
 .palette-expanded {
@@ -59,12 +59,11 @@
 .palette-search {
     position: relative;
     overflow: hidden;
-    background: #ffffff;
     text-align: center;
     height: 35px;
     padding: 3px;
-    border-bottom: 1px solid $primary-border-color;
     box-sizing:border-box;
+    border-bottom: 1px solid #a7a7a7;
 }
 
 #palette-footer {
@@ -76,10 +75,10 @@
 
 
 .palette-category {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid $sidebar-seperator-grey;
 }
 .palette-content {
-    background: #fff;
+    background: $sidebar-seperator-grey;
     padding: 3px;
 }
 

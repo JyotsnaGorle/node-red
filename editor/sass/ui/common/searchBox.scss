@@ -42,9 +42,11 @@
         margin: 0px;
         height: 30px;
         box-sizing:border-box;
+        background: none;
 
         &:focus {
             border: none;
+            color: $sidebar-seperator-grey;
             box-shadow: none;
             -webkit-box-shadow: none;
         }
