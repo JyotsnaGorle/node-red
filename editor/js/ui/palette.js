@@ -215,6 +215,8 @@ RED.palette = (function() {
             var chart = $("#chart");
             var chartOffset = chart.offset();
             var chartSVG = $("#chart>svg").get(0);
+            var chartSVGRect = $("#chart>svg>g>g>rect").get(0);
+            chartSVGRect.setAttributeNS(null, 'fill',"#e8ecef");
             var activeSpliceLink;
             var mouseX;
             var mouseY;
