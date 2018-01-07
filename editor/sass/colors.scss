@@ -15,6 +15,9 @@
  **/
 
 $background-color: #515B69;
+$secondary-grey: #e8ecef;
+$sidebar-grey: #4f4f4f;
+$sidebar-seperator-grey: #a7a7a7;
 
 $form-placeholder-color: #bbbbbb;
 $form-text-color: #444;
@@ -34,11 +37,11 @@ $link-unknown-color: #f00;
 $primary-border-color: #bbbbbb;
 $secondary-border-color: #dddddd;
 
-$tab-background-active: #e8ecef;
+$tab-background-active: $secondary-grey;
 $tab-background-inactive: #5e6774;
 $tab-background-hover: #ddd;
 
-$palette-header-background: #f3f3f3;
+$palette-header-background: $sidebar-grey;
 
 $workspace-button-background: #fff;
 $workspace-button-background-hover: #ddd;
