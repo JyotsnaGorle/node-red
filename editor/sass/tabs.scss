@@ -58,11 +58,12 @@
 
             a.red-ui-tab-label {
                 display: block;
+                font-family: $source-sans-font;
                 font-size: 14px;
                 padding-left: 12px;
                 width: 100%;
                 height: 100%;
-                color: $active-tab-font-a-color;
+                color: $tab-font-a-color;
             }
             a:hover {
                 text-decoration: none;
